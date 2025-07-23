@@ -1,0 +1,50 @@
+[project]
+name = "trea-ai-agent"
+version = "0.1.0"
+description = "TReA - Treasury with Embedded AI: Agentic AI for automated treasury document processing and journal mapping"
+requires-python = ">=3.12"
+dependencies = [
+    # Core dependencies
+    "streamlit>=1.32.0",
+    "requests>=2.32.4",
+    
+    # AI and ML (OpenAI only)
+    "openai>=1.40.0",
+    
+    # Document processing
+    "pandas>=2.2.0",
+    
+    # Database (PostgreSQL with vector support)
+    "psycopg2-binary>=2.9.0",
+    "pgvector>=0.2.4",
+    
+    # Utilities
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.0.0",
+    "numpy>=1.24.0",
+    "plotly>=5.17.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "black>=24.0.0",
+    "isort>=5.13.0",
+    "flake8>=7.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.isort]
+profile = "black"
+line_length = 88

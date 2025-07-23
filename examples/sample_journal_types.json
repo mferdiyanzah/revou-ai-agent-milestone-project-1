@@ -1,0 +1,76 @@
+{
+  "transactions": [
+    {
+      "transaction_type": "BUY",
+      "asset_class": "STOCK",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2024-01-15",
+      "description": "Purchase of equity securities",
+      "expected_journal_type": "PAYMENT"
+    },
+    {
+      "transaction_type": "SELL",
+      "asset_class": "BOND",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2024-01-16",
+      "description": "Sale of fixed income securities",
+      "expected_journal_type": "REFUND"
+    },
+    {
+      "transaction_type": "DIVIDEND",
+      "asset_class": "STOCK",
+      "amount": 5000,
+      "currency": "USD",
+      "date": "2024-01-17",
+      "description": "Dividend payment received",
+      "expected_journal_type": "REFUND"
+    },
+    {
+      "transaction_type": "SUBSCRIPTION",
+      "asset_class": "FUND",
+      "amount": 25000,
+      "currency": "USD",
+      "date": "2024-01-18",
+      "description": "Mutual fund subscription",
+      "expected_journal_type": "PAYMENT"
+    },
+    {
+      "transaction_type": "REDEMPTION",
+      "asset_class": "FUND",
+      "amount": 15000,
+      "currency": "USD",
+      "date": "2024-01-19",
+      "description": "Mutual fund redemption",
+      "expected_journal_type": "REFUND"
+    },
+    {
+      "transaction_type": "INTEREST",
+      "asset_class": "BOND",
+      "amount": 3000,
+      "currency": "USD",
+      "date": "2024-01-20",
+      "description": "Interest payment received",
+      "expected_journal_type": "REFUND"
+    },
+    {
+      "transaction_type": "PLACEMENT",
+      "asset_class": "CASH",
+      "amount": 200000,
+      "currency": "USD",
+      "date": "2024-01-21",
+      "description": "Time deposit placement",
+      "expected_journal_type": "PAYMENT"
+    },
+    {
+      "transaction_type": "MATURITY",
+      "asset_class": "CASH",
+      "amount": 200000,
+      "currency": "USD",
+      "date": "2024-01-22",
+      "description": "Time deposit maturity",
+      "expected_journal_type": "REFUND"
+    }
+  ]
+} 

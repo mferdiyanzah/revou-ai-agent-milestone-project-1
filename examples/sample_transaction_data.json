@@ -1,0 +1,80 @@
+{
+  "transactions": [
+    {
+      "transaction_id": "TXN_001",
+      "transaction_type": "BUY",
+      "asset_class": "STOCK",
+      "amount": 10000.00,
+      "currency": "USD",
+      "date": "2024-01-15",
+      "description": "Purchase of technology equity shares",
+      "reference": "REF-2024-001",
+      "counterparty": "BROKER_ABC"
+    },
+    {
+      "transaction_id": "TXN_002", 
+      "transaction_type": "SELL",
+      "asset_class": "BOND",
+      "amount": 5000.00,
+      "currency": "USD",
+      "date": "2024-01-16",
+      "description": "Sale of government bond holdings",
+      "reference": "REF-2024-002",
+      "counterparty": "CLEARING_HOUSE"
+    },
+    {
+      "transaction_id": "TXN_003",
+      "transaction_type": "DIVIDEND",
+      "asset_class": "STOCK", 
+      "amount": 250.00,
+      "currency": "USD",
+      "date": "2024-01-17",
+      "description": "Quarterly dividend payment received",
+      "reference": "DIV-2024-Q1",
+      "counterparty": "COMPANY_XYZ"
+    },
+    {
+      "transaction_id": "TXN_004",
+      "transaction_type": "INTEREST",
+      "asset_class": "BOND",
+      "amount": 150.00,
+      "currency": "USD", 
+      "date": "2024-01-18",
+      "description": "Bond interest payment received",
+      "reference": "INT-2024-001",
+      "counterparty": "BOND_ISSUER"
+    },
+    {
+      "transaction_id": "TXN_005",
+      "transaction_type": "SUBSCRIPTION",
+      "asset_class": "FUND",
+      "amount": 15000.00,
+      "currency": "USD",
+      "date": "2024-01-19", 
+      "description": "Mutual fund subscription",
+      "reference": "SUB-2024-001",
+      "counterparty": "FUND_MANAGER"
+    },
+    {
+      "transaction_id": "TXN_006",
+      "transaction_type": "REDEMPTION",
+      "asset_class": "FUND",
+      "amount": 8000.00,
+      "currency": "USD",
+      "date": "2024-01-20",
+      "description": "Partial fund redemption",
+      "reference": "RDM-2024-001", 
+      "counterparty": "FUND_MANAGER"
+    }
+  ],
+  "metadata": {
+    "source": "Treasury Management System",
+    "created_date": "2024-01-20",
+    "total_transactions": 6,
+    "currencies": ["USD"],
+    "date_range": {
+      "start": "2024-01-15",
+      "end": "2024-01-20"
+    }
+  }
+} 

@@ -1,0 +1,38 @@
+transaction_type,asset_class_id,transaction_subtype,transaction_subtype_code,description,category,priority
+Buy,2,Buy,BUY,Purchase of fixed income securities,Trading,1
+Buy,5,Buy,EQ-BUY,Purchase of equity securities,Trading,1
+Sell,2,Sell,SELL,Sale of fixed income securities,Trading,1
+Sell,2,Sell-Accr.,SELLACC,Sale with accrued interest,Trading,1
+Subscription,3,Subscription,SUB,Fund subscription,Investment,1
+Redemption,3,Redemption,RDM,Fund redemption,Investment,1
+Redemption,2,Redemption,RDM,Bond redemption,Investment,1
+Partial redemption,2,Partial redemption,PRT_RDM,Partial bond redemption,Investment,2
+Dividend Cash,3,Dividend Cash,DVD,Dividend payment received,Income,1
+Dividends,3,Dividends,DVD,Dividend payment,Income,1
+Interest,2,Interest,INT,Interest payment received,Income,1
+Interest Payment,1,Interest Payment,INP,Interest income payment,Income,1
+Interest Received,1,Interest Received,INP,Interest received on deposits,Income,1
+Accrued Interest,2,Accrued Interest,ACC_INTR,Interest accrual on bonds,Accrual,2
+Accrued Interest,2,Accrued Interest,ACI,Interest accrual adjustment,Accrual,2
+Coupons,2,Coupons,CPN,Bond coupon payment,Income,1
+Maturity,6,Maturity,MAT,Time deposit maturity,Principal,1
+Maturity,2,Maturity-Accr.,MATACC,Bond maturity with accrued interest,Principal,1
+Placement,6,Placement,PLA,Time deposit placement,Investment,1
+Repayment Of Deposit,6,Repayment Of Deposit,RPD,Deposit repayment,Principal,1
+Early Termination,6,Early Termination,EAT,Early deposit termination,Principal,2
+Cash Placement,1,Buy,BUYPLC1,Cash placement for investment,Cash Management,2
+Cash Placement,1,Buy,BUYPLC2,Cash placement settlement,Cash Management,2
+Deposit Placement,6,Deposit Placement,DPT_PLC1,Deposit placement,Cash Management,2
+Withdrawal,1,Withdrawal,WDW1,Cash withdrawal,Cash Management,3
+Withdrawal,1,Withdrawal,WDW2,Cash withdrawal settlement,Cash Management,3
+Transfer,1,Transfer,TRF,Internal transfer,Cash Management,3
+Management Fee,1,Management Fee,MGF,Investment management fee,Expense,2
+Custody Fee,1,Custody Fee,CTF,Securities custody fee,Expense,2
+Internal Payment Debit,1,Internal Payment Debit,IPD,Internal payment debit,Payment,3
+Internal Payment Credit,1,Internal Payment Credit,IPC,Internal payment credit,Payment,3
+Incoming Payment Foreign,1,Incoming Payment Foreign,IPF,Foreign currency payment,Payment,3
+Payment Domestic,1,Payment Domestic,PD,Domestic payment,Payment,3
+Client Money Transfer Third Party,1,Client Money Transfer Third Party,CMT,Third party transfer,Payment,3
+Public purchase offer,2,Public purchase offer,PPO,Public purchase offer transaction,Trading,3
+Revenue,2,Revenue,RVN,Revenue recognition,Income,2
+Open Deposit (Rollover),6,Placement,PLA,Deposit rollover,Investment,2 

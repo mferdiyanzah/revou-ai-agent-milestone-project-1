@@ -1,0 +1,64 @@
+{
+  "asset_classes": {
+    "1": {
+      "name": "Cash & Cash Equivalents",
+      "description": "Cash, bank deposits, and short-term investments",
+      "examples": ["Bank accounts", "Cash clearing", "Interbank transfers"]
+    },
+    "2": {
+      "name": "Fixed Income Securities",
+      "description": "Bonds, debentures, and other debt instruments",
+      "examples": ["Government bonds", "Corporate bonds", "Treasury bills"]
+    },
+    "3": {
+      "name": "Fund Investments",
+      "description": "Mutual funds, ETFs, and other pooled investments",
+      "examples": ["Equity funds", "Bond funds", "Money market funds"]
+    },
+    "5": {
+      "name": "Equity Securities",
+      "description": "Stocks and equity-based investments",
+      "examples": ["Common stocks", "Preferred stocks", "Equity shares"]
+    },
+    "6": {
+      "name": "Time Deposits",
+      "description": "Term deposits and fixed-term investments",
+      "examples": ["Certificates of deposit", "Fixed deposits", "Term investments"]
+    }
+  },
+  "account_classes": {
+    "Bank": "Banking and financial institution accounts",
+    "Cash Clearing": "Cash settlement and clearing accounts",
+    "Cash for Investment": "Investment-related cash accounts",
+    "Interbank Transfer": "Inter-bank transfer accounts",
+    "Interest Receivable": "Interest income receivables",
+    "Interest income": "Interest income accounts",
+    "Investment Receivable": "Investment-related receivables",
+    "Investment in Financial Instrument": "Financial instrument investments",
+    "Marketable Securities": "Securities available for trading",
+    "Marketable Securities - Bonds": "Bond securities",
+    "Other Comprehensive": "Other comprehensive income",
+    "Other expenses": "Miscellaneous expenses",
+    "Other income": "Miscellaneous income",
+    "Other payable": "General payables",
+    "Taxes payable": "Tax-related payables",
+    "Time deposit": "Term deposit accounts",
+    "art. 23 final": "Final withholding tax"
+  },
+  "journal_types": {
+    "Invoice": "Standard invoice transactions",
+    "Debit Memo": "Debit memo adjustments", 
+    "Payment Created": "Payment creation entries",
+    "Refund Created": "Refund creation entries"
+  },
+  "transaction_categories": {
+    "Trading": "Buy/sell securities transactions",
+    "Investment": "Investment placement and redemption",
+    "Income": "Interest, dividends, and other income",
+    "Principal": "Principal repayments and maturities",
+    "Cash Management": "Cash operations and transfers",
+    "Expense": "Management fees and expenses",
+    "Payment": "Payment processing transactions",
+    "Accrual": "Accrual adjustments"
+  }
+} 

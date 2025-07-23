@@ -1,0 +1,9 @@
+transaction_id,transaction_type,asset_class,amount,currency,date,description,reference,counterparty
+TXN_001,BUY,STOCK,10000.00,USD,2024-01-15,Purchase of technology equity shares,REF-2024-001,BROKER_ABC
+TXN_002,SELL,BOND,5000.00,USD,2024-01-16,Sale of government bond holdings,REF-2024-002,CLEARING_HOUSE
+TXN_003,DIVIDEND,STOCK,250.00,USD,2024-01-17,Quarterly dividend payment received,DIV-2024-Q1,COMPANY_XYZ
+TXN_004,INTEREST,BOND,150.00,USD,2024-01-18,Bond interest payment received,INT-2024-001,BOND_ISSUER
+TXN_005,SUBSCRIPTION,FUND,15000.00,USD,2024-01-19,Mutual fund subscription,SUB-2024-001,FUND_MANAGER
+TXN_006,REDEMPTION,FUND,8000.00,USD,2024-01-20,Partial fund redemption,RDM-2024-001,FUND_MANAGER
+TXN_007,BUY,ETF,7500.00,USD,2024-01-21,ETF purchase for portfolio diversification,REF-2024-003,EXCHANGE_ABC
+TXN_008,SELL,STOCK,12000.00,USD,2024-01-22,Equity disposal for rebalancing,REF-2024-004,BROKER_XYZ 

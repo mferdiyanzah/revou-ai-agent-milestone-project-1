@@ -1,0 +1,10 @@
+BUY STOCK 10000 USD 2024-01-15 Purchase of technology equity shares
+SELL BOND 5000 USD 2024-01-16 Sale of government bond holdings  
+DIVIDEND STOCK 250 USD 2024-01-17 Quarterly dividend payment received
+INTEREST BOND 150 USD 2024-01-18 Bond interest payment received
+SUBSCRIPTION FUND 15000 USD 2024-01-19 Mutual fund subscription
+REDEMPTION FUND 8000 USD 2024-01-20 Partial fund redemption
+BUY ETF 7500 USD 2024-01-21 ETF purchase for portfolio diversification
+SELL STOCK 12000 USD 2024-01-22 Equity disposal for rebalancing
+PLACEMENT CASH 50000 USD 2024-01-23 Time deposit placement
+MATURITY CASH 25000 USD 2024-01-24 Fixed deposit maturity 
